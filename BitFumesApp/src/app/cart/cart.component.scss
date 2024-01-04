@@ -1,0 +1,11 @@
+.cart{
+    padding-left: 1rem;
+    max-width: 70rem;
+    margin: 0 auto;
+    .items{
+        .total-cost{
+            text-align: center;
+            font-size: 1.5rem;
+        }
+    }
+}

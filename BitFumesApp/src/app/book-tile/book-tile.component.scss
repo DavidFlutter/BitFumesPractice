@@ -1,0 +1,66 @@
+.book-tile{
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    box-sizing: content-box;
+    border-radius: .5rem;
+    max-width: 95vw;
+    img{
+        width: 30rem;
+        height: 100%;
+        object-fit: cover;
+        border-radius: .5rem 0 0 .5rem;
+    }
+    .text-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 1rem;
+        // background-color: red;
+        flex-grow: 1;
+        height: 100%;
+        box-sizing: content-box;
+        padding: 1rem;
+        // box-sizing: content-box;
+        .upper{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            h3{
+                margin: 0;
+                padding: 0;
+                font-size: 1.5rem;
+            }
+            span{
+                font-size: 1.1rem;
+                font-weight: 100;
+                color: grey;
+            }
+        }
+        .authour{
+            font-weight: 100;
+            color: grey;
+        }
+        button{
+            align-self: flex-start;
+            background-color: black;
+            padding: .5rem 1rem;
+            border: none;
+            border-radius: .5rem;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-bottom: 1rem;
+            &:hover{
+                opacity: 0.7;
+            }
+            &:active{
+                opacity: .5;
+            }
+        }
+    }
+}
